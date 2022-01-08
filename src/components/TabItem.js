@@ -8,7 +8,7 @@ import {
   IconProfile,
   IconProfileActive,
 } from '../assets/icons';
-import {colors} from '../utils';
+import {colors, fonts} from '../utils';
 
 const TabItem = ({index, isFocused, options, onPress, onLongPress, label}) => {
   const Icon = () => {
@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
     color: isFocused ? colors.white : colors.secondary,
     fontSize: 11,
     marginTop: 4,
+    fontFamily: fonts.primary.bold,
   }),
   container: {
     alignItems: 'center',

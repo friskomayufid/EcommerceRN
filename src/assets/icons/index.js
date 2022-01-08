@@ -4,6 +4,8 @@ import IconJersey from './jersey';
 import IconJerseyActive from './jersey-active';
 import IconProfile from './profile';
 import IconProfileActive from './profile-active';
+import IconSearch from './search';
+import IconCart from './cart';
 
 export {
   IconHome,
@@ -12,4 +14,6 @@ export {
   IconJerseyActive,
   IconProfile,
   IconProfileActive,
+  IconSearch,
+  IconCart,
 };
